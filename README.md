@@ -6,6 +6,7 @@ Pasos de instalación
 1.- Ejecutar el script BDpagaTodo.sql para crear la base de datos.
 2.- Descargar zip de este repositorio.
 3.- Importar proyecto en eclipse.
+  3.1.- Modificar propiedad "spring.datasource.url" del archivo aplication.properties por "spring.datasource.url=jdbc:postgresql://localhost:5432/pagaTodo2" (por el cambio de nombre dela base de datos).
 4.- Agregar servidor tomat 10.1.
 5.- Desplegar proyecto.
 6.- probar en postman.
